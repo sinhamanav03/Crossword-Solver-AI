@@ -1,1 +1,0 @@
-{Variable(5, 1, 'across', 3): 'ACT', Variable(1, 3, 'down', 5): 'ABOUT', Variable(0, 6, 'down', 6): 'ABROAD', Variable(2, 3, 'across', 4): 'BEAR', Variable(1, 0, 'across', 4): 'AREA', Variable(1, 0, 'down', 4): 'ABLE'}
