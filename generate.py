@@ -261,6 +261,7 @@ class CrosswordCreator():
         var = self.select_unassigned_variable(assignment)
         for val in self.order_domain_values(var,assignment):
             assignment[var] = val
+            self.ac3()
             if self.consistent(assignment):
                 result = self.backtrack(assignment)
                 if result is not None :
